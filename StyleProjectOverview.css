@@ -1,0 +1,64 @@
+html {
+  /* To make use of full height of page*/
+  min-height: 100%;
+}
+
+body {
+    background: linear-gradient(to bottom right,rgb(234, 245, 250), rgb(97, 100, 100));
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+#title_containter {
+  color: white;
+  background-color: #333;
+  text-align: center;
+  font-family: Bahnschrift;
+  font-size: 5vw;
+  height: 7vw;
+}
+
+#content_container {
+  color: black;
+  text-align: left;
+  font-family: Bahnschrift;
+  font-size: 3vw;
+}
+
+#project_list {
+  color: black;
+  list-style: none;
+}
+
+.project_sublist {
+  color: black;
+  list-style: none;
+}
+
+.list_item {
+  margin-top: 1.2vw;
+}
+
+ /* unvisited link */
+a:link {
+  color: black;
+  margin-inline-end: 5vw;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color:mediumblue;
+}
+
+/* selected link */
+/*
+a:active {
+  color: grey;
+} 
+*/
+
