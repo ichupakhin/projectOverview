@@ -1,19 +1,35 @@
+/*@media (max-width: 1200px) {
+  .container {
+    max-width: 960;
+  }
+  .promo {
+    &__head
+  }
+}
+*/
+
 html {
   /* To make use of full height of page*/
   min-height: 100%;
 }
 
 body {
-    background: linear-gradient(to bottom right,rgb(234, 245, 250), rgb(97, 100, 100));
+
+    background: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.829),
+    rgba(240, 240, 240, 0.178)), url(pictures/pic_1.jpg) center top;
+    background-size: cover;
+    /*
     background-repeat: no-repeat;
     margin: 0;
+    */
 }
 
 #title_containter {
-  color: white;
-  background-color: #333;
+  color:whitesmoke;
+  background-color: transparent;
   text-align: center;
-  font-family: Bahnschrift;
+  font-family: 'Gill Sans MT';
   font-size: 5vw;
   height: 7vw;
 }
@@ -21,33 +37,36 @@ body {
 #content_container {
   color: black;
   text-align: left;
-  font-family: Bahnschrift;
+  font-family: 'Gill Sans MT';
   font-size: 3vw;
 }
 
 #project_list {
-  color: black;
-  list-style: none;
+  color: rgba(255, 255, 255, 0.7);
+  list-style: upper-roman;
+  /*list-style-image: url(pictures/list_arrow_32_32.png);*/
+  list-style-position: inside;
+  padding: 30px;
 }
 
 .project_sublist {
-  color: black;
+  color: rgba(255, 255, 255, 0.7);
   list-style: none;
 }
 
 .list_item {
-  margin-top: 1.2vw;
+  padding-top: 30px;
 }
 
  /* unvisited link */
 a:link {
-  color: black;
+  color: rgba(255, 255, 255, 0.7);
   margin-inline-end: 5vw;
 }
 
 /* visited link */
 a:visited {
-  color: black;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 /* mouse over link */
